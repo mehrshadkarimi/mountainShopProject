@@ -15,7 +15,7 @@ import './header.styles.scss';
 
 const Header = ({ currentUser, hidden }) => (
   <div className='header'>
-    <Link className='logo-container' to='/'>
+    <Link className='logo-container' to={process.env.PUBLIC_URL + '/'}>
       <Logo className='logo' />
     </Link>
     <div className='options'>
