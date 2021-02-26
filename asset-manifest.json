@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/mountainShopProject/static/css/main.032d35ef.chunk.css",
+    "main.js": "/mountainShopProject/static/js/main.652b1827.chunk.js",
+    "main.js.map": "/mountainShopProject/static/js/main.652b1827.chunk.js.map",
+    "runtime~main.js": "/mountainShopProject/static/js/runtime~main.6f5cb020.js",
+    "runtime~main.js.map": "/mountainShopProject/static/js/runtime~main.6f5cb020.js.map",
+    "static/css/2.862b2f9f.chunk.css": "/mountainShopProject/static/css/2.862b2f9f.chunk.css",
+    "static/js/2.9c563ab3.chunk.js": "/mountainShopProject/static/js/2.9c563ab3.chunk.js",
+    "static/js/2.9c563ab3.chunk.js.map": "/mountainShopProject/static/js/2.9c563ab3.chunk.js.map",
+    "index.html": "/mountainShopProject/index.html",
+    "precache-manifest.286350fc396cf761efb4bbd8dfd97b9b.js": "/mountainShopProject/precache-manifest.286350fc396cf761efb4bbd8dfd97b9b.js",
+    "service-worker.js": "/mountainShopProject/service-worker.js",
+    "static/css/2.862b2f9f.chunk.css.map": "/mountainShopProject/static/css/2.862b2f9f.chunk.css.map",
+    "static/css/main.032d35ef.chunk.css.map": "/mountainShopProject/static/css/main.032d35ef.chunk.css.map",
+    "static/media/crown.ed28accb.svg": "/mountainShopProject/static/media/crown.ed28accb.svg",
+    "static/media/shopping-bag.30f07071.svg": "/mountainShopProject/static/media/shopping-bag.30f07071.svg"
+  }
+}
