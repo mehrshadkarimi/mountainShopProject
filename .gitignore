@@ -1,0 +1,8 @@
+.idea/
+.vscode/
+node_modules/
+build
+.DS_Store
+*.log
+.npm/
+yarn.lock/
