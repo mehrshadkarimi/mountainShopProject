@@ -1,0 +1,27 @@
+.lp-itemView-Container{
+    display: flex;
+    justify-content: center;
+}
+
+.lp-item-view{
+   display: flex;
+   flex-direction: column;
+}
+.item-p{
+    padding: 30px;
+    text-align: justify;
+    column-count: 2;
+    column-gap: 30px;
+    font-size: 20px;
+}
+.item-view-title{
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 3px;
+    word-spacing: 8px;
+}
+.item-img-container{
+    display: flex;
+    justify-content: center;
+ 
+}

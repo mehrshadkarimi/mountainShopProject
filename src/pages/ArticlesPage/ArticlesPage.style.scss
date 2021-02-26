@@ -1,0 +1,35 @@
+.learningPage{
+    background-color:#bbb;
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    padding-bottom: 30px;
+    height: 100%;
+    border-radius: 25px;
+    box-shadow: 10px 10px 8px  #888888;
+}
+.lp-header{
+    border-bottom: 2px solid black;
+    padding-top: 30px;
+    min-height: 12%;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+}
+.lp-Title{
+    padding-left: 15px;
+    font-weight: 600;
+    letter-spacing: 10px;
+    
+}
+.lp-content{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}

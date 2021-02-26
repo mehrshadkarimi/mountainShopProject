@@ -1,0 +1,80 @@
+.lp-list-item{
+    background-color:#ddd;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    height: 230px;
+    justify-content: space-between;
+    opacity: 0.8;
+    &:hover{
+        opacity: 1;
+    }
+}
+.lp-img{
+    width:400px;
+    height: 230px;
+}
+.lp-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.lp-item-txt{
+    min-height:55%;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: start;
+    align-items: flex-start;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px !important;
+    word-break:normal;
+    overflow-y: auto;
+}
+.lp-item-title{
+    
+    font-size: 22px;
+    font-weight: 600;
+    text-align: justify;
+    display: flex;
+    margin-top: 20px;
+    align-self: start;
+    padding-left: 30px; 
+    &:hover{
+        text-decoration: underline;
+    }
+}
+.lp-item-content{
+  
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+.lp-item-btn-container{
+    display: flex;
+    align-self: flex-end;
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+.lp-item-btn{
+    width: 120px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    color: black;
+    background-color: white;
+    &:hover{
+        background-color: #aaa;
+        color: white;
+        font-weight: 600;
+    }
+}
