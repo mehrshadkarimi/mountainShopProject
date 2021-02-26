@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch, Route, Redirect } from 'react-router-dom';
+import { Switch, Route, Redirect ,withRouter} from 'react-router-dom';
 import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
 
@@ -48,10 +48,22 @@ class App extends React.Component {
   }
 
   render() {
+    console.log(this.props,"fffffff")
     return (
       <div>
         <Header />
         <Switch>
+        <Route
+            exact
+            path='/mountainShopProject'
+            render={() =>
+               this.props.location.pathname==="/mountainShopProject" ? (
+                <Redirect to='/' />
+              ) : (
+               ''
+              )
+            }
+          />
           <Route exact path='/' component={HomePage} />
           <Route exact path='/ArticlesPage' component={ArticlesPage} />
           <Route exact path='/Contact' component={Contact} />
@@ -84,7 +96,4 @@ const mapDispatchToProps = dispatch => ({
   setCurrentUser: user => dispatch(setCurrentUser(user))
 });
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(App);
+export default withRouter(connect(mapStateToProps,mapDispatchToProps)(App));
