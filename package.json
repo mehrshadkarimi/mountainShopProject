@@ -1,14 +1,16 @@
 {
   "name": "mountain-project",
   "version": "0.1.0",
+  "homepage": "https://mehrshadkarimiProject.com",
   "engines": {
     "node": "14.15.1",
-    "npm":"6.14.8"
+    "npm": "6.14.8"
   },
   "private": true,
   "dependencies": {
     "bootstrap": "^4.6.0",
     "firebase": "6.0.2",
+    "gh-pages": "^3.1.0",
     "node-sass": "4.12.0",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
@@ -30,7 +32,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+
   },
   "eslintConfig": {
     "extends": "react-app"
