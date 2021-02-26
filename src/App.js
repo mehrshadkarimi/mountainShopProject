@@ -55,12 +55,12 @@ class App extends React.Component {
         <Switch>
          
           <Route exact path={process.env.PUBLIC_URL + '/'} component={HomePage} />
-          <Route exact path={process.env.PUBLIC_URL + '/ArticlesPage'} component={ArticlesPage} />
-          <Route exact path={process.env.PUBLIC_URL + '/Contact' }component={Contact} />
-          <Route exact path={process.env.PUBLIC_URL + '/Learning/:item'} component={LearningItem} />
-          <Route exact path={process.env.PUBLIC_URL + '/ShopPage' } component={HomeShopPage} />
-          <Route path={process.env.PUBLIC_URL + '/ShopPage/shop'} component={ShopPage} />
-          <Route exact path={process.env.PUBLIC_URL + '/checkout'} component={CheckoutPage} />
+          <Route exact path='/ArticlesPage' component={ArticlesPage} />
+          <Route exact path='/Contact' component={Contact} />
+          <Route exact path='/Learning/:item' component={LearningItem} />
+          <Route exact path='/ShopPage' component={HomeShopPage} />
+          <Route path='/ShopPage/shop' component={ShopPage} />
+          <Route exact path='/checkout' component={CheckoutPage} />
           <Route
             exact
             path='/signin'
