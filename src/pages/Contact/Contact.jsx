@@ -10,13 +10,13 @@ function Contact(props) {
                         Designed And Developed By:
                     </h2>
                     <h1>
-                        Mehrshad Karimi
+                        Fatemeh Ramzanghorbani
                     </h1>
                     <h3>
-                        Email: Karimi.mehrshad73@gmail.com
+                        Email:Fatemeh.ramzanghorbani7@gmail.com
                     </h3>
                     <h3>
-                        Mobile: 09120286772
+                        Student number: 982011792
                     </h3>
                 </div>
         </div>
